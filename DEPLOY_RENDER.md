@@ -54,9 +54,9 @@ In the "Environment" section, add these variables:
 
 | Key | Value |
 |-----|-------|
-| `TWILIO_ACCOUNT_SID` | `AC2bae408bc44581a96bd7356be0c011b6` |
-| `TWILIO_AUTH_TOKEN` | `51a625845d42f0863c37a03613136751` |
-| `TWILIO_PHONE_NUMBER` | `+18774191956` |
+| `TWILIO_ACCOUNT_SID` | `Your_Twilio_Account_SID_here` |
+| `TWILIO_AUTH_TOKEN` | `Your_Twilio_Auth_Token_here` |
+| `TWILIO_PHONE_NUMBER` | `Your_Twilio_Phone_Number` |
 | `TRUSTCARD_API_URL` | Leave blank for now, add later |
 | `PORT` | `3000` |
 | `NODE_ENV` | `production` |
@@ -70,7 +70,7 @@ In the "Environment" section, add these variables:
 ### Step 5: Configure Twilio Webhook
 
 1. Go to: https://console.twilio.com/us1/develop/phone-numbers/manage/incoming
-2. Click on: **+1 (877) 419-1956**
+2. Click on: **Your Twilio Phone Number**
 3. Under "A MESSAGE COMES IN":
    - **Webhook**: `https://trustcard-sms.onrender.com/sms`
    - **HTTP Method**: `POST`
@@ -78,7 +78,7 @@ In the "Environment" section, add these variables:
 
 ### Step 6: Test It!
 
-Send a text to **+1 (877) 419-1956** with any Instagram URL.
+Send a text to **your Twilio phone number** with any Instagram URL.
 
 You should get: "✅ Analyzing your post..."
 
