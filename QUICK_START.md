@@ -42,7 +42,7 @@ You'll get a URL like: `https://abc123.ngrok.io`
 ### Step 4: Configure Twilio Webhook
 
 1. Go to: https://console.twilio.com/us1/develop/phone-numbers/manage/incoming
-2. Click on your number: **+1 (877) 419-1956**
+2. Click on your number: **+1 (573) 422-5091**
 3. Scroll to **"Messaging Configuration"**
 4. Under **"A MESSAGE COMES IN"**:
    - **Webhook**: `https://your-ngrok-url.com/sms` (replace with your ngrok URL)
@@ -51,7 +51,7 @@ You'll get a URL like: `https://abc123.ngrok.io`
 
 ### Step 5: Test It!
 
-Send a text to **+1 (877) 419-1956** with any Instagram URL:
+Send a text to **+1 (573) 422-5091** with any Instagram URL:
 ```
 https://www.instagram.com/p/ABC123/
 ```

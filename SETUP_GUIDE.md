@@ -5,7 +5,7 @@
 You've provided:
 - **User SID**: `US435c416791fdc59d1ed8da865247cdc4`
 - **Messaging Service SID**: `MG61c48366b0c19303949accdb49083d43`
-- **Phone Number**: `+18774191956`
+- **Phone Number**: `+15734225091`
 
 ## ⚠️ Important: What You Still Need
 
@@ -32,7 +32,7 @@ Use this if you want to send from your specific phone number.
 ```
 TWILIO_ACCOUNT_SID=ACxxxxxxxxxxxxxxxxxxxxxxxxxx (find this!)
 TWILIO_AUTH_TOKEN=your_auth_token_here (find this!)
-TWILIO_PHONE_NUMBER=+18774191956
+TWILIO_PHONE_NUMBER=+15734225091
 ```
 
 ### Option B: Using Messaging Service (More Scalable)
@@ -77,7 +77,7 @@ TWILIO_ACCOUNT_SID=ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 TWILIO_AUTH_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 # Your Twilio Phone Number
-TWILIO_PHONE_NUMBER=+18774191956
+TWILIO_PHONE_NUMBER=+15734225091
 
 # Optional: Use Messaging Service instead of phone number
 # TWILIO_MESSAGING_SERVICE_SID=MG61c48366b0c19303949accdb49083d43
@@ -114,14 +114,14 @@ Once you've filled in your `.env` file:
 
 4. **Configure Twilio webhook**:
    - Go to: https://console.twilio.com/us1/develop/phone-numbers/manage/incoming
-   - Click on: +1 (877) 419-1956
+   - Click on: +1 (573) 422-5091
    - Scroll to "Messaging Configuration"
    - Under "A MESSAGE COMES IN":
      - Webhook: `https://your-ngrok-url.com/sms`
      - HTTP Method: `POST`
    - Click "Save"
 
-5. **Test it**: Send a text with an Instagram URL to +1 (877) 419-1956!
+5. **Test it**: Send a text with an Instagram URL to +1 (573) 422-5091!
 
 ## 🆘 Need Help?
 

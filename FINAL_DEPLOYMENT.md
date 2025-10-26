@@ -2,7 +2,7 @@
 
 ## ✅ Your Configuration
 
-- **Twilio Phone**: +1 (877) 419-1956
+- **Twilio Phone**: +1 (573) 422-5091
 - **TrustCard API**: http://52.180.138.232:8000
 - **GitHub Repo**: https://github.com/prempunmagar/trustcard_sms.git
 
@@ -69,7 +69,7 @@ PORT = 3000
 
 1. **Go to**: https://console.twilio.com/us1/develop/phone-numbers/manage/incoming
 
-2. **Click** on your number: **+1 (877) 419-1956**
+2. **Click** on your number: **+1 (573) 422-5091**
 
 3. **Scroll to**: "Messaging Configuration"
 
@@ -81,7 +81,7 @@ PORT = 3000
 
 ## 🧪 Step 4: Test It!
 
-Send a text message to **+1 (877) 419-1956** with an Instagram URL:
+Send a text message to **+1 (573) 422-5091** with an Instagram URL:
 
 ```
 https://www.instagram.com/p/ABC123/
